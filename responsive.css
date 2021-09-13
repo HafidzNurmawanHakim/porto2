@@ -1,0 +1,143 @@
+@media (max-width: 960px) {
+  .skill {
+    width: 27%;
+  }
+  #skill p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 780px) {
+  #home .img {
+    transform: scale(0.7);
+  }
+
+  #profil .content {
+    margin-left: 50px;
+  }
+  #profil .deskripsi {
+    float: inherit;
+    top: 300px;
+    margin-left: 40px;
+    transition: 0.7s;
+  }
+  #profil .img {
+    float: inherit;
+    position: relative;
+    top: 150px;
+    transform: scale(0.1);
+    transition: 0.4s;
+  }
+  #profil .deskripsi.active2 {
+    top: 50px;
+    opacity: 1;
+  }
+
+  #profil .img.active {
+    transform: scale(0.7);
+  }
+
+  #skill {
+    height: auto;
+  }
+
+  .skill {
+    width: 40%;
+  }
+
+  .footer-col {
+    width: 33.33%;
+    padding: 0 20px 10px 0;
+  }
+  .container {
+    margin: auto;
+    padding: 5px;
+  }
+  .footer-col .social-links a {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 640px) {
+  #home .img {
+    top: 100px;
+  }
+
+  .navbar .logo {
+    margin: 0 auto;
+  }
+  #profil h2 {
+    font-size: 24px;
+  }
+  .menu {
+    display: none;
+  }
+  .toggle span {
+    display: block;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+  .footer-col {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  .container {
+    margin: auto;
+    padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  #profil .deskripsi {
+    font-size: 13px;
+    right: 100px;
+    width: 300px;
+    top: 50px;
+  }
+  #home .img {
+    top: 50px;
+  }
+  #home .deskripsi {
+    transform: scale(0.9);
+    width: 300px;
+  }
+
+  .btn button {
+    margin: 25px 10px 0 0;
+  }
+  #home .btn a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .content {
+    padding-right: 20px 20px 20px 10px;
+  }
+  #profil h2 {
+    font-size: 18px;
+  }
+  #profil .img {
+    top: 50px;
+  }
+
+  .skill {
+    width: 40%;
+  }
+  #skill p {
+    font-size: 12px;
+  }
+  #skill h2 {
+    position: relative;
+    font-size: 20px;
+    right: 35px;
+    bottom: 40px;
+  }
+  #skill .card-skill {
+    margin-left: 20px;
+  }
+}
